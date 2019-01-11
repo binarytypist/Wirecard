@@ -1,0 +1,172 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WireCardPay_vb
+</name>
+</assembly>
+<members>
+<member name="T:WireCardPay_vb.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:WireCardPay_vb.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:WireCardPay_vb.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:WireCardPay_vb.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:WireCardPay_vb.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:WireCardPay_vb.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentState.Success">
+ <summary>
+ The payment was successfully processed
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentState.Cancel">
+ <summary>
+ The payment was cancelled by the user
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentState.Failure">
+ <summary>
+ The payment failed
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.Undefined">
+ <summary>
+ Payment type will not be included in fingerprint or form. You have to specify the
+ form value by yourself. This is useful if you have a payment type selection field on
+ your own page.
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.Select">
+ <summary>
+ No pre-selection, payment type selection is done on the QPay page
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.CCard">
+ <summary>
+ Credit card, including "Verified by VISA" and "MasterCard Secure Code"
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.CCard_Moto">
+ <summary>
+ Credit card, without "Verified by VISA" and "MasterCard Secure Code" (only with
+ permission by WireCard)
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.Maestro">
+ <summary>
+ Maestro SecureCode
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.PBX">
+ <summary>
+ paybox
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.PSC">
+ <summary>
+ paysafecard
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.EPS">
+ <summary>
+ eps online transaction, sub-selection is done on the QPay page
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.ELV">
+ <summary>
+ Direct debit ("Lastschrift")
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.QUICK">
+ <summary>
+ Electronic purse "@Quick"
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.Mia">
+ <summary>
+ Payment through mobile phone service provider, sub-selection is done on the QPay page
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.IDL">
+ <summary>
+ iDeal
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.Giropay">
+ <summary>
+ Giropay
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.PayPal">
+ <summary>
+ PayPal
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.WireCardPay_vb.PaymentType.Sofortueberweisung">
+ <summary>
+ SOFORTUEBERWEISUNG
+ </summary>
+</member>
+<member name="T:WireCardPay_vb.WireCardPay_vb.WireCardException">
+ <summary>
+ Exception thrown by the WireCardNet library if a WireCard-specific error occurs
+ </summary>
+</member>
+<member name="M:WireCardPay_vb.WireCardPay_vb.WireCardException.#ctor">
+ <summary>
+ Creates a new instance of WireCardException
+ </summary>
+</member>
+<member name="M:WireCardPay_vb.WireCardPay_vb.WireCardException.#ctor(System.String)">
+ <summary>
+ Creates a new instance of WireCardException with error message
+ </summary>
+</member>
+<member name="M:WireCardPay_vb.WireCardPay_vb.WireCardException.#ctor(System.String,System.Exception)">
+ <summary>
+ Creates a new instance of WireCardException with error message and inner exception
+ </summary>
+</member>
+<member name="F:WireCardPay_vb.Index._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WireCardPay_vb.Index._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
